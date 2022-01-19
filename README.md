@@ -45,7 +45,7 @@ uv                      [my]
 	 
 
 */
-
+```
 # How to use
 ``` java
 ModelRender.java
@@ -56,11 +56,10 @@ public static float[] BuildModel(
 		, float mLength, float mWidth, float mHeight/*长 宽 高 */
 		, Pointer source/*旋转点*/
 		, float degree,float off)/*角度*/
-		
+```
 # Adjust as needed
 ``` java
 model = JSON.parseObject(Rocker.getJsonFromAssets(context,"other"), FastModel.class);
-
-		
+```
 
 
